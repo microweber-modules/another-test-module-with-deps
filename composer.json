@@ -1,0 +1,16 @@
+{
+  "name": "microweber-modules/another-test-module-with-deps",
+  "autoload": {
+    "psr-0": {
+      "TestModuleWithAutoLoad2": "src/"
+    }
+  },
+  "require": {
+    "torann/json-ld": "^0.0.19",
+    "composer require guzzlehttp/guzzle": "*"
+  },
+  "description": "test 2",
+  "license": "MIT",
+  "type": "microweber-module",
+  "target-dir": "another-test-module-with-deps"
+}
